@@ -1,0 +1,32 @@
+Topics:
+
+  1. alternative for create-react-app since create-react-app is deprecated
+
+    npm create vite@latest <app-name>
+
+      choose react in the listed templates
+
+  2. local storage & session storage
+
+      storage --> place to store the data( basic info about the applcation )
+        eg: isLogged, isSeller, theme of the site
+
+      setItem, getItem, removeItem, clear
+            
+      Local Storage:
+        permanent storage which has **no expiry**, untill we manually clear or remove via code
+
+      Session Storage:
+        temporary storage which will get expired once we close the tab/winow
+
+  3. Redux - State management tool
+    Session management
+    Protected Routes using the session
+
+  Axios using CancelToken is deprecated, so cancelling requests not needed as of now.
+
+
+Questions:
+  1. defer in script tag
+  2. proptypes in react
+  3. Errors and errors handling
